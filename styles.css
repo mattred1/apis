@@ -1,0 +1,30 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background: #212529;
+}
+
+p {
+    color: hsl(0, 0%, 78%);
+}
+
+
+.btn-grad {
+    background-image: linear-gradient(to right, #B2FEFA 0%, #0ED2F7 51%, #B2FEFA 100%);
+    padding: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: #212529;
+    box-shadow: 0 0 20px hsla(0, 1%, 28%, 0.6);
+    border-radius: 10px;
+    display: block;
+    font-weight: 700;
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #212529;
+    text-decoration: none;
+}
